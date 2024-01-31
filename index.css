@@ -1,0 +1,120 @@
+body {
+    margin: 0 auto;
+    padding: .5rem 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    background: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center;
+    background-size: cover;
+    color: white;
+    font-family: "Inter", sans-serif;    
+      
+}
+.wrapper {
+    background: #1F2937;
+    margin: 40px auto 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap; 
+    align-items: stretch;
+    align-content: stretch;
+    text-align: flex-start;
+    max-width: 80%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Karla", sans-serif;
+    margin: 20px 10px 0 10px;
+}
+#change-el-color {
+    color: #4ADF86;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #D5D4D8;
+    margin: 20px 10px;
+      
+}
+
+button {
+    background: #10B981;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 10px;
+    min-width: 25vh;
+    color: inherit;
+    min-height: 6vh;
+    
+}
+.reset-btn {
+    width: 10%;
+    min-width: 6vh;
+}
+hr {
+    border-top: .5px solid;
+    width: 95%;
+    border-color: #2F3E53;
+    margin-left: 10px;
+    
+}
+
+.output-elements {
+    margin: 20px 0;
+    display: flex;
+    align-content: space-evenly;
+    flex-flow: wrap;
+    color: #55F991;
+    
+}
+
+.output-box {
+    border: solid 1px transparent;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin: 10px 10px 0;
+    background: #273549;
+    font-weight: 500;
+    width: 200px;
+    text-align: center;
+    letter-spacing: .05rem;
+    min-height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.hasContent:hover {
+    border-color: #10B981;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.hasContent {
+    cursor: pointer;
+}
+
+.message {
+    display: none;
+    margin: 10px auto;
+    max-width: 50%;
+    font-size: 16px;
+    text-align: center;
+    background-color: #10B981;
+    padding: 10px;
+    border-radius: 5px;
+    animation: xxx;
+    animation-duration: .3s;
+    
+}
+
+@keyframes xxx {
+    0% { opacity: 0; transform: translateY(50%);}
+    100% {opacity: 1; transform: translateY(0);}
+}
